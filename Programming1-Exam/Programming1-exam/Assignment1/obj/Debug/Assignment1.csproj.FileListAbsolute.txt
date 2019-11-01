@@ -1,0 +1,7 @@
+C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment1\bin\Debug\Assignment1.exe
+C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment1\bin\Debug\Assignment1.pdb
+C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment1\obj\Debug\Assignment1.csprojAssemblyReference.cache
+C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
+C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment1\obj\Debug\Assignment1.exe
+C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment1\obj\Debug\Assignment1.pdb

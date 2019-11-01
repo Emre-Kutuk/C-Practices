@@ -1,0 +1,10 @@
+C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise4\bin\Debug\Exercise4.exe.config
+C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise4\bin\Debug\Exercise4.exe
+C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise4\bin\Debug\Exercise4.pdb
+C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise4\obj\Debug\Exercise4.csprojAssemblyReference.cache
+C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise4\obj\Debug\Exercise4.Form1.resources
+C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise4\obj\Debug\Exercise4.Properties.Resources.resources
+C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise4\obj\Debug\Exercise4.csproj.GenerateResource.cache
+C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise4\obj\Debug\Exercise4.csproj.CoreCompileInputs.cache
+C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise4\obj\Debug\Exercise4.exe
+C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise4\obj\Debug\Exercise4.pdb

@@ -1,0 +1,7 @@
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 4\obj\Debug\Exercise 4.csprojAssemblyReference.cache
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 4\obj\Debug\Exercise 4.csproj.CoreCompileInputs.cache
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 4\bin\Debug\Exercise 4.exe.config
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 4\bin\Debug\Exercise 4.exe
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 4\bin\Debug\Exercise 4.pdb
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 4\obj\Debug\Exercise 4.exe
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 4\obj\Debug\Exercise 4.pdb

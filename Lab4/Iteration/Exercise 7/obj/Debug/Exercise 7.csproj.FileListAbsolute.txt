@@ -1,0 +1,10 @@
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 7\bin\Debug\Exercise 7.exe.config
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 7\bin\Debug\Exercise 7.exe
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 7\bin\Debug\Exercise 7.pdb
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 7\obj\Debug\Exercise 7.csprojAssemblyReference.cache
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 7\obj\Debug\Exercise_7.Form1.resources
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 7\obj\Debug\Exercise_7.Properties.Resources.resources
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 7\obj\Debug\Exercise 7.csproj.GenerateResource.cache
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 7\obj\Debug\Exercise 7.csproj.CoreCompileInputs.cache
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 7\obj\Debug\Exercise 7.exe
+C:\Projects\inhollandIT\Programming\Lab\Lab4\Iteration\Exercise 7\obj\Debug\Exercise 7.pdb

@@ -1,0 +1,7 @@
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 6\obj\Debug\Exercise 6.csprojAssemblyReference.cache
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 6\obj\Debug\Exercise 6.csproj.CoreCompileInputs.cache
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 6\bin\Debug\Exercise 6.exe.config
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 6\bin\Debug\Exercise 6.exe
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 6\bin\Debug\Exercise 6.pdb
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 6\obj\Debug\Exercise 6.exe
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 6\obj\Debug\Exercise 6.pdb

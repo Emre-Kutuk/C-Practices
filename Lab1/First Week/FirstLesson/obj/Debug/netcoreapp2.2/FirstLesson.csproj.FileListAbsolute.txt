@@ -1,0 +1,11 @@
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\bin\Debug\netcoreapp2.2\FirstLesson.deps.json
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\bin\Debug\netcoreapp2.2\FirstLesson.runtimeconfig.json
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\bin\Debug\netcoreapp2.2\FirstLesson.runtimeconfig.dev.json
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\bin\Debug\netcoreapp2.2\FirstLesson.dll
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\bin\Debug\netcoreapp2.2\FirstLesson.pdb
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\obj\Debug\netcoreapp2.2\FirstLesson.csprojAssemblyReference.cache
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\obj\Debug\netcoreapp2.2\FirstLesson.csproj.CoreCompileInputs.cache
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\obj\Debug\netcoreapp2.2\FirstLesson.AssemblyInfoInputs.cache
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\obj\Debug\netcoreapp2.2\FirstLesson.AssemblyInfo.cs
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\obj\Debug\netcoreapp2.2\FirstLesson.dll
+C:\Projects\inholland IT\Programming\Lab\Lab1\First Week\FirstLesson\obj\Debug\netcoreapp2.2\FirstLesson.pdb

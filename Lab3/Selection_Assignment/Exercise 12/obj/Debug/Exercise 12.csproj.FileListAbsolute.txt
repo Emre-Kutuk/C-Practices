@@ -1,0 +1,9 @@
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 12\bin\Debug\Exercise 12.exe.config
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 12\bin\Debug\Exercise 12.exe
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 12\bin\Debug\Exercise 12.pdb
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 12\obj\Debug\Exercise_12.Form1.resources
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 12\obj\Debug\Exercise_12.Properties.Resources.resources
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 12\obj\Debug\Exercise 12.csproj.GenerateResource.cache
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 12\obj\Debug\Exercise 12.csproj.CoreCompileInputs.cache
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 12\obj\Debug\Exercise 12.exe
+C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 12\obj\Debug\Exercise 12.pdb
