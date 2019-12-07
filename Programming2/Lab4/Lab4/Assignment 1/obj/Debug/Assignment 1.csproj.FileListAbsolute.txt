@@ -1,0 +1,7 @@
+C:\Projects\inhollandIT\Projects\C# Practices\Programming2\Lab4\Lab4\Assignment 1\bin\Debug\Assignment 1.exe.config
+C:\Projects\inhollandIT\Projects\C# Practices\Programming2\Lab4\Lab4\Assignment 1\bin\Debug\Assignment 1.exe
+C:\Projects\inhollandIT\Projects\C# Practices\Programming2\Lab4\Lab4\Assignment 1\bin\Debug\Assignment 1.pdb
+C:\Projects\inhollandIT\Projects\C# Practices\Programming2\Lab4\Lab4\Assignment 1\obj\Debug\Assignment 1.csprojAssemblyReference.cache
+C:\Projects\inhollandIT\Projects\C# Practices\Programming2\Lab4\Lab4\Assignment 1\obj\Debug\Assignment 1.csproj.CoreCompileInputs.cache
+C:\Projects\inhollandIT\Projects\C# Practices\Programming2\Lab4\Lab4\Assignment 1\obj\Debug\Assignment 1.exe
+C:\Projects\inhollandIT\Projects\C# Practices\Programming2\Lab4\Lab4\Assignment 1\obj\Debug\Assignment 1.pdb
