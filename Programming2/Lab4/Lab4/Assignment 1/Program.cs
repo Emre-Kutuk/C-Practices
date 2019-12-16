@@ -25,8 +25,7 @@ namespace Assignment_1
             
             if(File.Exists(filename + ".txt"))
             {
-                DisplayPerson(ReadPeople(filename + ".txt"));
-                
+                DisplayPerson(ReadPeople(filename + ".txt"));   
             }
             else
             {
