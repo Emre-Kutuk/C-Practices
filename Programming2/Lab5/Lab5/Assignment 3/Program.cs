@@ -54,7 +54,7 @@ namespace Assignment_3
                 }
                 else
                 {
-                    Console.WriteLine("word '{0}' not found");
+                    Console.WriteLine("word '{0}' not found", userInput);
                 }
                 Console.Write("Enter a word : ");
                 userInput = Console.ReadLine();
