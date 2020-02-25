@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment_2
+namespace Assignment_3
 {
     class DeckOfCards
     {

@@ -16,7 +16,25 @@ namespace Assignment_3
 
         void Start()
         {
+            Player player1 = new Player("Emre");
+            Player player2 = new Player("Ege");
 
+            //create game and play it
+
+            WarCardGame war = new WarCardGame(player1, player2);
+            PlayTheGame(war);
+            Console.ReadKey();
+        }
+
+        void PlayTheGame(WarCardGame war)
+        {
+            war.StartNewGame();
+            
+            while(!war.EndOfGame())
+            {
+                war.NextCard();
+                System.Threading.Thread.Sleep(400);
+            }
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment_2
+namespace Assignment_3
 {
     class PlayingCard
     {
@@ -19,15 +19,15 @@ namespace Assignment_2
         public override string ToString()
         {
             if (this.rank < 11 && this.rank != 1)
-                return(this.rank + " of " + this.suit);
+                return (this.rank + " of " + this.suit);
             else if (this.rank == 1)
-                return("Ace" + " of " + this.suit);
+                return ("Ace" + " of " + this.suit);
             else if (this.rank == 11)
-                return("Jack" + " of " + this.suit);
+                return ("Jack" + " of " + this.suit);
             else if (this.rank == 12)
-                return("Queen" + " of " + this.suit);
+                return ("Queen" + " of " + this.suit);
             else if (this.rank == 13)
-                return("King" + " of " + this.suit);
+                return ("King" + " of " + this.suit);
 
             return null;
         }

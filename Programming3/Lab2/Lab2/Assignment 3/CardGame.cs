@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Assignment_3
 {
-    enum CardSuit
+    class CardGame
     {
-        Spades, Clubs, Hearts, Diamonds
+        public DeckOfCards deck = new DeckOfCards();
+
+        public CardGame()
+        {
+
+        }
     }
 }

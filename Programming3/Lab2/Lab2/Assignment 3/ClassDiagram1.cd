@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Assignment_2.DeckOfCards">
-    <Position X="3.5" Y="1" Width="1.5" />
+  <Class Name="Assignment_3.DeckOfCards">
+    <Position X="4.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAAAIAAAAAAAAAAAAAAAAQAAAAAAAEEAA=</HashCode>
       <FileName>DeckOfCards.cs</FileName>
@@ -10,8 +10,18 @@
       <Field Name="allPlayingCards" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Assignment_2.PlayingCard">
-    <Position X="7" Y="1" Width="1.5" />
+  <Class Name="Assignment_3.Player">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAQAAAAAAAAAAgAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="cards" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Assignment_3.PlayingCard">
+    <Position X="7.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PlayingCard.cs</FileName>
@@ -20,8 +30,29 @@
       <Field Name="suit" />
     </ShowAsAssociation>
   </Class>
-  <Enum Name="Assignment_2.CardSuit">
-    <Position X="10.75" Y="1" Width="1.5" />
+  <Class Name="Assignment_3.WarCardGame">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WarCardGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player1" />
+      <Field Name="player2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment_3.CardGame">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>CardGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="deck" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="Assignment_3.CardSuit">
+    <Position X="10.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAQAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
       <FileName>CardSuit.cs</FileName>
