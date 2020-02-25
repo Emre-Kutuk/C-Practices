@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Assignment_1
 {
-    class Magazine : Book
+    class Magazine : BookStoreItem
     {
-        public string dayOfRelease;
+        string dayOfRelease;
 
         public Magazine(string title, string dayOfRelease, double price)
         {

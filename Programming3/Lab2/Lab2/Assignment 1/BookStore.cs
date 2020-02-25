@@ -8,9 +8,9 @@ namespace Assignment_1
 {
     class BookStore
     {
-        public List<Book> books = new List<Book>();
+        public List<BookStoreItem> books = new List<BookStoreItem>();
 
-        public void Add(Book book)
+        public void Add(BookStoreItem book)
         {
             books.Add(book);
         }
@@ -19,7 +19,7 @@ namespace Assignment_1
         {
             double total = 0;
 
-            foreach(Book b in books)
+            foreach(BookStoreItem b in books)
             {
                 total += b.price;
             }
@@ -29,7 +29,7 @@ namespace Assignment_1
 
         public void PrintEveryBook()
         {
-            foreach (Book b in books)
+            foreach (BookStoreItem b in books)
             {
                 b.Print();
             }

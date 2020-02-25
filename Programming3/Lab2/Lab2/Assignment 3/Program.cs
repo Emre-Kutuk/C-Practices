@@ -33,7 +33,10 @@ namespace Assignment_3
             while(!war.EndOfGame())
             {
                 war.NextCard();
-                System.Threading.Thread.Sleep(400);
+
+                //adds delay between each loop
+                //System.Threading.Thread.Sleep(400); 
+
             }
         }
     }
