@@ -11,11 +11,11 @@ namespace Assignment_1
         string dayOfRelease;
 
         public Magazine(string title, string dayOfRelease, double price)
+        :base(title,price)
         {
-            this.title = title;
-            this.dayOfRelease = dayOfRelease;
-            this.price = price;
-        }
+            
+           this.dayOfRelease = dayOfRelease;
+       }
 
         public override void Print()
         {

@@ -10,14 +10,9 @@ namespace Assignment_1
     {
         public string author;
         
-        public Book()
-        { }
-        
-        public Book(string title, string author, double price)
+        public Book(string title, string author, double price) : base(title,price)
         {
-            this.title = title;
-            this.author = author;
-            this.price = price;
+            this.author = author;   
         }
 
         public override void Print()

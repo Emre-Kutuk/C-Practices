@@ -15,5 +15,11 @@ namespace Assignment_1
         {
             Console.WriteLine("[-] '{0}' {1}", title, price.ToString("0.00"));
         }
+
+        public BookStoreItem(string title, double price)
+        {
+            this.title = title;
+            this.price = price;
+        }
     }
 }
