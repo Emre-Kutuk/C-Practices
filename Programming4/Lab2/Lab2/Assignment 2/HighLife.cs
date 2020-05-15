@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConwayGameOfLife
 {
-    class HighLife : ConwayGameOfLife
+    class HighLife : ILifeBehaviour
     {
-        public override bool CellShouldLive(bool livingCell, int neighbourCount)
+        public bool CellShouldLive(bool livingCell, int neighbourCount)
         {
-
             if (neighbourCount == 3 || neighbourCount == 6)
                 return true;
 

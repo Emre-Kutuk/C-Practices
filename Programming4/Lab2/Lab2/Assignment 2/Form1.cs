@@ -6,7 +6,7 @@ namespace ConwayGameOfLife
 {
   public partial class Form1 : Form
   {
-    private ConwayGameOfLife game;
+        private ConwayGameOfLife game = new ConwayGameOfLife();
 
     public Form1()
     {
@@ -16,7 +16,7 @@ namespace ConwayGameOfLife
     private void Form1_Load(object sender, EventArgs e)
     {
       // create a game
-      game = new StandardLife();
+      game.lifeBehaviour = new StandardLife();
       SetMsgBox("Standard Life");
 
       // start the timer
@@ -40,24 +40,25 @@ namespace ConwayGameOfLife
     {
       this.game.Reset();
     }
+     public void SetMsgBox(string type)
+     { 
+       lbl_currentlf.Text = "Current Life Form: " + type;
+     }
 
-        private void btn_sl_Click(object sender, EventArgs e)
+        private void btnChangeLife_Click(object sender, EventArgs e)
         {
             this.game.Reset();
-            game = new StandardLife();
-            SetMsgBox("Standard Life");
+            if (game.lifeBehaviour is StandardLife)
+            {
+                SetMsgBox("High Life");
+                game.lifeBehaviour = new HighLife();
+            }
+            else
+            {
+                SetMsgBox("Standard Life");
+                game.lifeBehaviour = new StandardLife();
+            }
         }
 
-        private void btn_hl_Click(object sender, EventArgs e)
-        {
-            this.game.Reset();
-            game = new HighLife();
-            SetMsgBox("High Life");
-        }
-
-        public void SetMsgBox(string type)
-        {
-            lbl_currentlf.Text = "Current Life Form: " + type;
-        }
     }
 }

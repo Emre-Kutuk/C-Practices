@@ -32,8 +32,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.btnResetGame = new System.Windows.Forms.Button();
             this.lbl_currentlf = new System.Windows.Forms.Label();
-            this.btn_sl = new System.Windows.Forms.Button();
-            this.btn_hl = new System.Windows.Forms.Button();
+            this.btnChangeLife = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // timer1
@@ -62,33 +61,23 @@
             this.lbl_currentlf.Text = "Current Life Form : _____";
             this.lbl_currentlf.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // btn_sl
+            // btnChangeLife
             // 
-            this.btn_sl.Location = new System.Drawing.Point(227, 710);
-            this.btn_sl.Name = "btn_sl";
-            this.btn_sl.Size = new System.Drawing.Size(75, 23);
-            this.btn_sl.TabIndex = 2;
-            this.btn_sl.Text = "Standart Life";
-            this.btn_sl.UseVisualStyleBackColor = true;
-            this.btn_sl.Click += new System.EventHandler(this.btn_sl_Click);
-            // 
-            // btn_hl
-            // 
-            this.btn_hl.Location = new System.Drawing.Point(334, 710);
-            this.btn_hl.Name = "btn_hl";
-            this.btn_hl.Size = new System.Drawing.Size(75, 23);
-            this.btn_hl.TabIndex = 3;
-            this.btn_hl.Text = "High Life";
-            this.btn_hl.UseVisualStyleBackColor = true;
-            this.btn_hl.Click += new System.EventHandler(this.btn_hl_Click);
+            this.btnChangeLife.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChangeLife.Location = new System.Drawing.Point(172, 702);
+            this.btnChangeLife.Name = "btnChangeLife";
+            this.btnChangeLife.Size = new System.Drawing.Size(141, 37);
+            this.btnChangeLife.TabIndex = 2;
+            this.btnChangeLife.Text = "Change Life";
+            this.btnChangeLife.UseVisualStyleBackColor = true;
+            this.btnChangeLife.Click += new System.EventHandler(this.btnChangeLife_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1499, 751);
-            this.Controls.Add(this.btn_hl);
-            this.Controls.Add(this.btn_sl);
+            this.Controls.Add(this.btnChangeLife);
             this.Controls.Add(this.lbl_currentlf);
             this.Controls.Add(this.btnResetGame);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -107,8 +96,7 @@
     private System.Windows.Forms.Timer timer1;
     private System.Windows.Forms.Button btnResetGame;
         private System.Windows.Forms.Label lbl_currentlf;
-        private System.Windows.Forms.Button btn_sl;
-        private System.Windows.Forms.Button btn_hl;
+        private System.Windows.Forms.Button btnChangeLife;
     }
 }
 

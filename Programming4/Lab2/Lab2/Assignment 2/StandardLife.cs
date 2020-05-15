@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConwayGameOfLife
 {
-    class StandardLife : ConwayGameOfLife
+    public class StandardLife : ILifeBehaviour
     {
-        public override bool CellShouldLive(bool livingCell, int neighbourCount)
+        public bool CellShouldLive(bool livingCell, int neighbourCount)
         {
             // with 3 neighbour cell will live
             if (neighbourCount == 3)

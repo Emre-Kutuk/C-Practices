@@ -3,8 +3,11 @@ using System.Drawing;
 
 namespace ConwayGameOfLife
 {
-  public abstract class ConwayGameOfLife
+  public class ConwayGameOfLife
   {
+        
+    public ILifeBehaviour lifeBehaviour;
+
     const int WIDTH = 300;
     const int HEIGHT = 140;
     const int LIVECHANCE = 20; // each cell has a change to be (initially) alive
@@ -86,12 +89,12 @@ namespace ConwayGameOfLife
           int neighBourCount = GetLiveNeighbours(copySpace, r, c);
 
           // cell should live?
-          this.space[r, c] = CellShouldLive(livingCell, neighBourCount);
+          this.space[r, c] = lifeBehaviour.CellShouldLive(livingCell, neighBourCount);
         }
       }
     }
 
-        public abstract bool CellShouldLive(bool livingCell, int neighbourCount);
+        //public abstract bool CellShouldLive(bool livingCell, int neighbourCount);
 
     /// <summary>Count live neighbours of given cell.</summary>
     /// <param name="space"></param>
