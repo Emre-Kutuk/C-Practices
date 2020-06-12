@@ -53,20 +53,18 @@ namespace Assignment_3
 
             if(player1.cards[0].rank > player2.cards[0].rank)
             {
-                player1.AddCard(player2.cards[0]);
-                player1.AddCard(player1.cards[0]);
-                player1.GetNextCard();
-                player2.GetNextCard();
+                player1.AddCard(player2.GetNextCard());
+                player1.AddCard(player1.GetNextCard());
+
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("{0} got the cards.", player1.name);
                 Console.ResetColor();
             }
             else if (player1.cards[0].rank < player2.cards[0].rank)
             {
-                player2.AddCard(player1.cards[0]);
-                player2.AddCard(player2.cards[0]);
-                player1.GetNextCard();
-                player2.GetNextCard();
+                player2.AddCard(player1.GetNextCard());
+                player2.AddCard(player2.GetNextCard());
+
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("{0} got the cards.", player2.name);
                 Console.ResetColor();
@@ -75,6 +73,7 @@ namespace Assignment_3
             {
                 player1.GetNextCard();
                 player2.GetNextCard();
+
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("2 cards lost.\nCards left : [{0}] {1}x, [{2}] {3}x", player1.name, player1.cards.Count, player2.name, player2.cards.Count);
                 Console.ResetColor();

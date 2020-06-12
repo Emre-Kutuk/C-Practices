@@ -9,22 +9,20 @@ namespace Assignment_2
     class DeckOfCards
     {
         public List<PlayingCard> allPlayingCards = new List<PlayingCard>();
-        const int CARDCOUNT = 13;
+        private const int CARDCOUNT = 13;
 
         public DeckOfCards()
         {
             InitCards();
         }
 
-        void InitCards()
+        private void InitCards()
         {
-            for(int i = 0; i < Enum.GetNames(typeof(CardSuit)).Length; i++)
+            foreach(int i in Enum.GetValues(typeof(CardSuit)))
             {
                 for(int j = 1; j <= CARDCOUNT; j++)
                 {
-                    PlayingCard card = new PlayingCard();
-                    card.suit = (CardSuit)i;
-                    card.rank = j;
+                    PlayingCard card = new PlayingCard(j, (CardSuit)i);
                     allPlayingCards.Add(card);
                 }
             }
@@ -40,7 +38,7 @@ namespace Assignment_2
 
         public void Shuffle()
         {
-            // Fisher Yates Shuffle
+            //Fisher Yates Shuffle Method
             Random rnd = new Random();
 
             for (int n = allPlayingCards.Count - 1; n > 0; --n)

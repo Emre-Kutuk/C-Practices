@@ -33,7 +33,7 @@
   <Class Name="Assignment_3.WarCardGame">
     <Position X="1.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>wAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>wAAAAAAAAAAgAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
       <FileName>WarCardGame.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -47,9 +47,9 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>CardGame.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
+    <ShowAsAssociation>
       <Field Name="deck" />
-    </ShowAsCollectionAssociation>
+    </ShowAsAssociation>
   </Class>
   <Enum Name="Assignment_3.CardSuit">
     <Position X="10.25" Y="0.75" Width="1.5" />

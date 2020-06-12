@@ -8,42 +8,48 @@ namespace Assignment_2
 {
     class ArrayStack : IStack
     {
-        int[] list;
-        int index = 0;
+        private int[] list;
 
         public ArrayStack(int max)
         {
             list = new int[max];
+            Count = 0;
         }
 
-        public int Count { get { return index; } }
+        public int Count { get; private set;}
 
-        public bool IsEmpty { get { if (index == 0) return true;  else  return false;  } }
+        public bool IsEmpty { get { return (Count == 0); } }
 
         public bool Contains(int value)
         {
-            foreach(int i in list)
-            {
-                if (i == value)
+            if (list.Contains(value))
                 return true;
-            }
-            return false;
+            else
+                return false;
         }
 
         public int Pop()
         {
-            List<int> temp = new List<int>(list);
-            int nr = list[index -1];
-            temp.RemoveAt(index -1);
-            list = temp.ToArray();
-            index--;
-            return nr;
+            //If empty it throws an exception
+            if (!IsEmpty)
+            {
+                Count--;
+                return list[Count];
+            }
+            else
+                throw new Exception("Error : The stack is empty.");
         }
 
         public void Push(int value)
         {
-            list[index] = value;
-            index++;
+            //If stack is full it throws an exception
+            if (Count < list.Length)
+            {
+                list[Count] = value;
+                Count++;
+            }
+            else
+                throw new Exception("Error : The stack is completely filled.");
         }
     }
 }

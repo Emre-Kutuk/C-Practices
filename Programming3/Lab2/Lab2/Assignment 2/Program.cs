@@ -19,8 +19,7 @@ namespace Assignment_2
             DeckOfCards deck = new DeckOfCards();
             deck.Print();
 
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine("\nCards are being shuffled...\n");
 
             deck.Shuffle();
             deck.Print();

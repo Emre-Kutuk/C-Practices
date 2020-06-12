@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_1
 {
-    class BookStoreItem
+    abstract class BookStoreItem
     {
         private string title;
         private double price;

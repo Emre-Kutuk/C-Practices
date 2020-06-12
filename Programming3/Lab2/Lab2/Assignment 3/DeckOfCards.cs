@@ -16,33 +16,26 @@ namespace Assignment_3
             InitCards();
         }
 
-        void InitCards()
+        private void InitCards()
         {
-            for(int i = 0; i < Enum.GetNames(typeof(CardSuit)).Length; i++)
+            foreach (int i in Enum.GetValues(typeof(CardSuit)))
             {
-                for(int j = 1; j <= CARDCOUNT; j++)
+                for (int j = 1; j <= CARDCOUNT; j++)
                 {
-                    PlayingCard card = new PlayingCard();
-                    card.suit = (CardSuit)i;
-                    card.rank = j;
+                    PlayingCard card = new PlayingCard(j, (CardSuit)i);
                     allPlayingCards.Add(card);
                 }
             }
         }
 
-       
+        //
+        //Print method that prints each card in the deck has been removed because it was unnecessary for this assignment
+        //
 
-        public void Print()
-        {
-            foreach(PlayingCard card in allPlayingCards)
-            {
-                Console.WriteLine(card.ToString());
-            }
-        }
 
         public void Shuffle()
         {
-            // Fisher Yates Shuffle
+            // Fisher Yates Shuffle Method
             Random rnd = new Random();
 
             for (int n = allPlayingCards.Count - 1; n > 0; --n)

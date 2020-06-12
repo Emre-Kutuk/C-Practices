@@ -8,7 +8,12 @@ namespace Assignment_3
 {
     public class RobotAdapter : IAttacker
     {
-        private Robot robot = new Robot();
+        private Robot robot;
+
+        public RobotAdapter()
+        {
+            robot = new Robot();
+        }
 
         public void AssignDriver()
         {

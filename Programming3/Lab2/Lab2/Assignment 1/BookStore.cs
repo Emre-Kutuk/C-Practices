@@ -8,30 +8,30 @@ namespace Assignment_1
 {
     class BookStore
     {
-        public List<BookStoreItem> books = new List<BookStoreItem>();
+        public List<BookStoreItem> bookStoreItems = new List<BookStoreItem>();
 
-        public void Add(BookStoreItem book)
+        public void Add(BookStoreItem bookStoreItem)
         {
-            books.Add(book);
+            bookStoreItems.Add(bookStoreItem);
         }
 
         public void PrintCompleteStock()
         {
             double total = 0;
 
-            foreach(BookStoreItem b in books)
+            foreach(BookStoreItem item in bookStoreItems)
             {
-                total += b.price;
+                total += item.price;
             }
 
             Console.WriteLine("Total sales price : " + total.ToString("00.00"));
         }
 
-        public void PrintEveryBook()
+        public void PrintEveryBookStoreItem()
         {
-            foreach (BookStoreItem b in books)
+            foreach (BookStoreItem item in bookStoreItems)
             {
-                b.Print();
+                item.Print();
             }
         }
     }

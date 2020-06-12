@@ -16,13 +16,21 @@ namespace Assignment_1
 
         void Start()
         {
-            Team t = new Team();
-            t.PrintAllTeamMembers();
-            
-            /*Programmer programmer = new Programmer("Emre");
-            t.AddProgrammer(programmer);
+            Team team = new Team();
+
+            team.AddProgrammer(new Programmer("Peter", Speciality.Csharp));
+            team.AddProgrammer(new Programmer("Kevin", Speciality.Java));
+            team.AddProgrammer(new Programmer("John", Speciality.HTML));
+            team.AddProgrammer(new Programmer("Susan", Speciality.PHP));
+            //prints programmers with speciality
+            team.PrintAllTeamMembers();
+
+            //adds another programmer with no speciality
+            team.AddProgrammer(new Programmer("Emre"));
             Console.WriteLine();
-            t.PrintAllTeamMembers();*/
+            
+            //prints programmers with and without speciality again
+            team.PrintAllTeamMembers();
 
 
             Console.ReadKey();

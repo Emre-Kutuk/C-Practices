@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assignment_1.Logger">
+    <Position X="6.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAIAAAAAAAAAAAABAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_1.MainSystem">
+    <Position X="3.5" Y="4" Width="1.75" />
+    <AssociationLine Name="subSystem" Type="Assignment_1.SubSystem" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="5" />
+        <Point X="6.25" Y="5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>MainSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="logger" />
+      <Field Name="subSystem" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment_1.Program">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment_1.SubSystem">
+    <Position X="6.25" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="logger" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

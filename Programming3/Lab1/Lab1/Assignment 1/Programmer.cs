@@ -8,23 +8,21 @@ namespace Assignment_1
 {
     class Programmer
     {
-        string name;
-        Speciality speciality;
+        private string name;
+        private Speciality speciality;
 
        public void Print()
         {
             Console.WriteLine("Name : {0} , Speciality : {1}", name, speciality);
         }
 
-        public Programmer(string n, Speciality s)
+        public Programmer(string name, Speciality speciality)
         {
-            name = n;
-            speciality = s;
+            this.name = name;
+            this.speciality = speciality;
         }
-        
-        public Programmer(string n) : this (n , Speciality.Unknown)
-        {
-        }
+
+        public Programmer(string name) : this(name, Speciality.Unknown) { }
 
     }
 }

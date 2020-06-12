@@ -11,9 +11,10 @@ namespace Assignment_3
         public CardSuit suit;
         public int rank;
 
-        public PlayingCard()
+        public PlayingCard(int rank, CardSuit suit)
         {
-
+            this.rank = rank;
+            this.suit = suit;
         }
 
         public override string ToString()
@@ -21,13 +22,13 @@ namespace Assignment_3
             if (this.rank < 11 && this.rank != 1)
                 return (this.rank + " of " + this.suit);
             else if (this.rank == 1)
-                return ("Ace" + " of " + this.suit);
+                return ("Ace of " + this.suit);
             else if (this.rank == 11)
-                return ("Jack" + " of " + this.suit);
+                return ("Jack of " + this.suit);
             else if (this.rank == 12)
-                return ("Queen" + " of " + this.suit);
+                return ("Queen of " + this.suit);
             else if (this.rank == 13)
-                return ("King" + " of " + this.suit);
+                return ("King of " + this.suit);
 
             return null;
         }

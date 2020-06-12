@@ -9,22 +9,31 @@ namespace Assignment_2
     class Customer
     {
         private string name;
+        private DateTime dateofregistration;
         private DateTime dateofbirth;
 
-        public Customer(string name, DateTime dateofbirth)
+        //Normally I didnt give date of registration as a parameter but instead I used DateTime.Now but in order to have the same results 
+        //as given assignment I had to enter it manually
+        public Customer(string name, DateTime dateofbirth, DateTime dateofregistration)
         {
             this.Name = name;
             this.DateOfBirth = dateofbirth;
+            this.DateOfRegistration = dateofregistration;
+
+            //I specifically added this method here rather than calling it from Program because I think of this as a notification
+            PrintCustomer();
         }
 
         public string Name {
             get { return name; }
             
-            set {
-                if (value != "")
+            set 
+            {
+                if (!String.IsNullOrEmpty(value))
                     name = value;
                 else
-                    name = "invalid_name";
+                    throw new ArgumentException("Error occured : Customer name can't be empty!", "name");
+
             }
         }
         public DateTime DateOfBirth
@@ -35,10 +44,18 @@ namespace Assignment_2
                         }
         }
 
+
         public DateTime DateOfRegistration
         {
-            get { return DateTime.Now; }
-            private set {}
+            //This is how it is normally
+            /*
+            get { return dateofregistration ;}
+            
+            private set {dateofregistration = DateTime.Now; }
+            */
+
+            get { return dateofregistration; }
+            set { dateofregistration = value; }
         }
 
         public int Age
@@ -55,6 +72,20 @@ namespace Assignment_2
                     return true;
             }
             private set { }
+        }
+
+        private void PrintCustomer()
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(this.Name);
+            Console.ResetColor();
+            Console.WriteLine("Date of Birth : " + this.DateOfBirth.ToString("dd/MM/yyyy") +
+                             "\nAge : " + this.Age +
+                             "\nDate of Registration : " + this.DateOfRegistration.ToString("dd/MM/yyyy") +
+                             "\nDiscount : " + this.Discount
+                             );
+            Console.WriteLine();
+
         }
     }
 }

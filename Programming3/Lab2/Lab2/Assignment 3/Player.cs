@@ -18,8 +18,7 @@ namespace Assignment_3
 
         public PlayingCard GetNextCard()
         {
-            PlayingCard temp = new PlayingCard();
-            temp = cards[0];
+            PlayingCard temp = cards[0];
             cards.Remove(cards[0]);
             return temp;
         }

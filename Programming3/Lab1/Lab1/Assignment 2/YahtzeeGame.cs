@@ -8,8 +8,8 @@ namespace Assignment_2
 {
     class YahtzeeGame
     {
-        Dice[] dices = new Dice[5];
-        Random rnd = new Random();
+        private Dice[] dices = new Dice[5];
+        private Random rnd = new Random();
 
         public YahtzeeGame()
         {

@@ -16,13 +16,21 @@ namespace Assignment_2
 
         void Start()
         {
+            //Pushes the values
             IStack myStack = new ArrayStack(25);
             AddValues(myStack);
-            Console.WriteLine();
+
+            //Asks for value check
+            Console.WriteLine("\nEnter a value to check please");
+            int userInput = int.Parse(Console.ReadLine());
+
+            //Checks the value
+            CheckValues(userInput, myStack);
+
+            //Processes the values
             ProcessValues(myStack);
-            Console.WriteLine();
+
             Console.ReadKey();
-            
         }
         void AddValues(IStack stack)
         {
@@ -43,12 +51,12 @@ namespace Assignment_2
             }
         }
 
-        bool CheckValues(int nr, IStack stack)
+        void CheckValues(int nr, IStack stack)
         {
             if (stack.Contains(nr))
-                return true;
+                Console.WriteLine("\n{0} is in the stack!\n", nr);
             else
-                return false;
+                Console.WriteLine("\n{0} is NOT in the stack!\n", nr);
         }
     }
 }

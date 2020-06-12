@@ -9,7 +9,6 @@ namespace Assignment_2
     class Dice
     {
         public int value;
-        Random rnd = new Random();
 
         public Dice(Random random)
         {

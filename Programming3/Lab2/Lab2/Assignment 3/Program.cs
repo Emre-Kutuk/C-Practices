@@ -16,11 +16,10 @@ namespace Assignment_3
 
         void Start()
         {
-            Player player1 = new Player("Emre");
-            Player player2 = new Player("Ege");
+            Player player1 = new Player("Smith");
+            Player player2 = new Player("Neo");
 
-            //create game and play it
-
+            //creates game and plays it
             WarCardGame war = new WarCardGame(player1, player2);
             PlayTheGame(war);
             Console.ReadKey();
@@ -33,10 +32,6 @@ namespace Assignment_3
             while(!war.EndOfGame())
             {
                 war.NextCard();
-
-                //adds delay between each loop
-                //System.Threading.Thread.Sleep(400); 
-
             }
         }
     }
