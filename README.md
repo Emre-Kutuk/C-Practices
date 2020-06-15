@@ -11,7 +11,7 @@
 - Methods
 
 **Level 2**
--Enumerations, Structure and Classes
+- Enumerations, Structure and Classes
 - 2 Dimensional Arrays and Flow Control 
 - Lists and Dictionaries
 - File IO and Error Handling
