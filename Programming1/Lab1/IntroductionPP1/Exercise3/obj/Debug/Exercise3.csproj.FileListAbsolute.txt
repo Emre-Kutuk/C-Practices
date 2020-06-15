@@ -1,6 +1,0 @@
-C:\Projects\inholland IT\Programming\Lab\Lab1\IntroductionPP1\Exercise3\bin\Debug\Exercise3.exe.config
-C:\Projects\inholland IT\Programming\Lab\Lab1\IntroductionPP1\Exercise3\bin\Debug\Exercise3.exe
-C:\Projects\inholland IT\Programming\Lab\Lab1\IntroductionPP1\Exercise3\bin\Debug\Exercise3.pdb
-C:\Projects\inholland IT\Programming\Lab\Lab1\IntroductionPP1\Exercise3\obj\Debug\Exercise3.csproj.CoreCompileInputs.cache
-C:\Projects\inholland IT\Programming\Lab\Lab1\IntroductionPP1\Exercise3\obj\Debug\Exercise3.exe
-C:\Projects\inholland IT\Programming\Lab\Lab1\IntroductionPP1\Exercise3\obj\Debug\Exercise3.pdb

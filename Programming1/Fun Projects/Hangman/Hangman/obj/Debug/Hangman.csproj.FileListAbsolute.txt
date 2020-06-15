@@ -1,7 +1,0 @@
-C:\Projects\inhollandIT\Programming\Lab\Fun Projects\Hangman\Hangman\bin\Debug\Hangman.exe.config
-C:\Projects\inhollandIT\Programming\Lab\Fun Projects\Hangman\Hangman\bin\Debug\Hangman.exe
-C:\Projects\inhollandIT\Programming\Lab\Fun Projects\Hangman\Hangman\bin\Debug\Hangman.pdb
-C:\Projects\inhollandIT\Programming\Lab\Fun Projects\Hangman\Hangman\obj\Debug\Hangman.csprojAssemblyReference.cache
-C:\Projects\inhollandIT\Programming\Lab\Fun Projects\Hangman\Hangman\obj\Debug\Hangman.csproj.CoreCompileInputs.cache
-C:\Projects\inhollandIT\Programming\Lab\Fun Projects\Hangman\Hangman\obj\Debug\Hangman.exe
-C:\Projects\inhollandIT\Programming\Lab\Fun Projects\Hangman\Hangman\obj\Debug\Hangman.pdb

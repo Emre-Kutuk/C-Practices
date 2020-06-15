@@ -1,7 +1,0 @@
-C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise 3\obj\Debug\Exercise 3.csproj.CoreCompileInputs.cache
-C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise 3\bin\Debug\Exercise 3.exe.config
-C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise 3\bin\Debug\Exercise 3.exe
-C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise 3\bin\Debug\Exercise 3.pdb
-C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise 3\obj\Debug\Exercise 3.exe
-C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise 3\obj\Debug\Exercise 3.pdb
-C:\Projects\inholland IT\Programming\Lab\Lab2\IntroductionPP2\Exercise 3\obj\Debug\Exercise 3.csprojAssemblyReference.cache

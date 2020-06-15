@@ -1,6 +1,0 @@
-C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment3\bin\Debug\Assignment3.exe.config
-C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment3\bin\Debug\Assignment3.exe
-C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment3\bin\Debug\Assignment3.pdb
-C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
-C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment3\obj\Debug\Assignment3.exe
-C:\Projects\inhollandIT\Programming\C# Practices\Programming1-Exam\Programming1-exam\Assignment3\obj\Debug\Assignment3.pdb

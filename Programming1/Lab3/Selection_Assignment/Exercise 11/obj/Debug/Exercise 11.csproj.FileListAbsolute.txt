@@ -1,9 +1,0 @@
-C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 11\bin\Debug\Exercise 11.exe.config
-C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 11\bin\Debug\Exercise 11.exe
-C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 11\bin\Debug\Exercise 11.pdb
-C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 11\obj\Debug\Exercise_11.Form1.resources
-C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 11\obj\Debug\Exercise_11.Properties.Resources.resources
-C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 11\obj\Debug\Exercise 11.csproj.GenerateResource.cache
-C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 11\obj\Debug\Exercise 11.csproj.CoreCompileInputs.cache
-C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 11\obj\Debug\Exercise 11.exe
-C:\Projects\inhollandIT\Programming\Lab\Lab3\Selection_Assignment\Exercise 11\obj\Debug\Exercise 11.pdb
