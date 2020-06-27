@@ -8,7 +8,13 @@ namespace Assignment_3
 {
     public class Robot
     {
-        private Random generator = new Random();
+        private Random generator;
+
+        public Robot()
+        {
+            generator = new Random();
+        }
+
 
         public void BashWithHands()
         {
@@ -17,7 +23,7 @@ namespace Assignment_3
 
         public void MoveByPerson()
         {
-            Console.WriteLine("Robot is moved by Frank");
+            Console.WriteLine("Robot is moved by Mark");
         }
 
         public void WalkForward()

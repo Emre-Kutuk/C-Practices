@@ -10,9 +10,9 @@ namespace Assignment_3
     {
         private Robot robot;
 
-        public RobotAdapter()
+        public RobotAdapter(Robot robot)
         {
-            robot = new Robot();
+            this.robot = robot;
         }
 
         public void AssignDriver()

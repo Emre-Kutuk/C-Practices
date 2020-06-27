@@ -19,14 +19,14 @@ namespace Assignment_3
             Tank tank = new Tank();
             tank.AssignDriver();
 
-            RobotAdapter robot = new RobotAdapter();
-            robot.AssignDriver();
+            Robot robot = new Robot();
+            robot.MoveByPerson();
 
             Console.WriteLine();
 
             List<IAttacker> attackers = new List<IAttacker>();
             attackers.Add(tank);
-            attackers.Add(robot);
+            attackers.Add(new RobotAdapter(robot));
 
 
             foreach(IAttacker attacker in attackers)

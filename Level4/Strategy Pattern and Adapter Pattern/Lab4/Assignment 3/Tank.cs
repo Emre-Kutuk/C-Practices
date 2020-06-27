@@ -8,7 +8,12 @@ namespace Assignment_3
 {
     public class Tank : IAttacker
     {
-        private Random generator = new Random();
+        private Random generator;
+
+        public Tank()
+        {
+            generator = new Random();
+        }
 
         public void AssignDriver()
         {
