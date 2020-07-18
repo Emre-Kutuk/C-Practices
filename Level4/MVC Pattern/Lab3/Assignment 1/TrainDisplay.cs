@@ -26,9 +26,6 @@ namespace Assignment_1
             lblDeparture.Text = station.DepartureTime.ToString();
         }
 
-        private void TrainDisplay_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

@@ -125,7 +125,6 @@
             this.Controls.Add(this.label1);
             this.Name = "TrainDisplay";
             this.Text = "TrainDisplay";
-            this.Load += new System.EventHandler(this.TrainDisplay_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
